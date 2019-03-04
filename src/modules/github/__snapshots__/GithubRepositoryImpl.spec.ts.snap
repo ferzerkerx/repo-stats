@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GithubRepository should get commits 1`] = `
+Array [
+  Object {
+    "author": "someUser",
+    "createdAt": 2018-12-13T14:33:21.000Z,
+    "files": Array [
+      Object {
+        "additions": 0,
+        "deletions": 1,
+        "filename": "handlers/GENCALC/PartRounder.js",
+      },
+      Object {
+        "additions": 2,
+        "deletions": 2,
+        "filename": "handlers/file.js",
+      },
+      Object {
+        "additions": 15,
+        "deletions": 18,
+        "filename": "handlers/file2.js",
+      },
+    ],
+    "linesAdded": 17,
+    "linesRemoved": 21,
+    "message": "ORG-5917
+- some comment",
+    "sha": "2a20a913d0159b1105e1be9f398d95a73e1a8129",
+  },
+  Object {
+    "author": "someUser",
+    "createdAt": 2018-12-13T14:33:21.000Z,
+    "files": Array [
+      Object {
+        "additions": 0,
+        "deletions": 1,
+        "filename": "handlers/GENCALC/PartRounder.js",
+      },
+      Object {
+        "additions": 2,
+        "deletions": 2,
+        "filename": "handlers/file.js",
+      },
+      Object {
+        "additions": 15,
+        "deletions": 18,
+        "filename": "handlers/file2.js",
+      },
+    ],
+    "linesAdded": 17,
+    "linesRemoved": 21,
+    "message": "ORG-5917
+- some comment",
+    "sha": "2a20a913d0159b1105e1be9f398d95a73e1a8129",
+  },
+  Object {
+    "author": "someUser",
+    "createdAt": 2018-12-13T14:33:21.000Z,
+    "files": Array [
+      Object {
+        "additions": 0,
+        "deletions": 1,
+        "filename": "handlers/GENCALC/PartRounder.js",
+      },
+      Object {
+        "additions": 2,
+        "deletions": 2,
+        "filename": "handlers/file.js",
+      },
+      Object {
+        "additions": 15,
+        "deletions": 18,
+        "filename": "handlers/file2.js",
+      },
+    ],
+    "linesAdded": 17,
+    "linesRemoved": 21,
+    "message": "ORG-5917
+- some comment",
+    "sha": "2a20a913d0159b1105e1be9f398d95a73e1a8129",
+  },
+  Object {
+    "author": "someUser",
+    "createdAt": 2018-12-13T14:33:21.000Z,
+    "files": Array [
+      Object {
+        "additions": 0,
+        "deletions": 1,
+        "filename": "handlers/GENCALC/PartRounder.js",
+      },
+      Object {
+        "additions": 2,
+        "deletions": 2,
+        "filename": "handlers/file.js",
+      },
+      Object {
+        "additions": 15,
+        "deletions": 18,
+        "filename": "handlers/file2.js",
+      },
+    ],
+    "linesAdded": 17,
+    "linesRemoved": 21,
+    "message": "ORG-5917
+- some comment",
+    "sha": "2a20a913d0159b1105e1be9f398d95a73e1a8129",
+  },
+  Object {
+    "author": "someUser",
+    "createdAt": 2018-12-13T14:33:21.000Z,
+    "files": Array [
+      Object {
+        "additions": 0,
+        "deletions": 1,
+        "filename": "handlers/GENCALC/PartRounder.js",
+      },
+      Object {
+        "additions": 2,
+        "deletions": 2,
+        "filename": "handlers/file.js",
+      },
+      Object {
+        "additions": 15,
+        "deletions": 18,
+        "filename": "handlers/file2.js",
+      },
+    ],
+    "linesAdded": 17,
+    "linesRemoved": 21,
+    "message": "ORG-5917
+- some comment",
+    "sha": "2a20a913d0159b1105e1be9f398d95a73e1a8129",
+  },
+]
+`;

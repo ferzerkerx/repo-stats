@@ -1,0 +1,27 @@
+language: node_js
+node_js:
+  - "lts/Carbon"
+
+addons:
+  sonarcloud:
+    organization: "ferzerkerx-github"
+    token:
+      secure: ""
+env:
+  secure: ""
+
+cache:
+  directories:
+    - "node_modules"
+
+install:
+  - "yarn install"
+  - "npm install -g snyk"
+
+script:
+  - "yarn build"
+  - "yarn test"
+  - 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then sonar-scanner; fi'
+
+after_success:
+  - 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then snyk monitor; fi'
