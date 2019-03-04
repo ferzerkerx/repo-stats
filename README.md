@@ -4,6 +4,8 @@
 
 Gets additional statistics for github repository: contribution percentage + subject matter expert suggestions based on labels and git commit history
 
+The aggregation and graphics are done using ELK stack
+
 ![alt tag](https://raw.githubusercontent.com/ferzerkerx/repo-stats/master/screenshots/repo-stats-1.png) 
 ![alt tag](https://raw.githubusercontent.com/ferzerkerx/repo-stats/master/screenshots/repo-stats-2.png) 
 
