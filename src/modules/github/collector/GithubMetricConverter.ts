@@ -5,7 +5,7 @@ import * as crypto from 'crypto';
 export class GithubMetricConverter {
   static toMetricItem(
     githubEntries: GithubEntry[],
-    githubConfig: GithubCollectorConfig
+    githubCollectorConfig: GithubCollectorConfig
   ): GithubMetricItem[] {
     return githubEntries.map(entry => {
       const hash = crypto
@@ -15,8 +15,7 @@ export class GithubMetricConverter {
 
       return {
         id: hash,
-        dataType: 'SCM',
-        repositoryName: githubConfig.repositoryName,
+        repositoryName: githubCollectorConfig.repositoryName,
         ...entry
       };
     });

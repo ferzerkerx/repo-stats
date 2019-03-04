@@ -7,7 +7,6 @@ export interface CollectorService<
 
 export interface MetricItem {
   id: string;
-  dataType: string;
   createdAt: Date;
 }
 
