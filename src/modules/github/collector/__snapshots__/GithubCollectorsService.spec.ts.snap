@@ -6,7 +6,6 @@ Array [
     "additions": 30,
     "author": "someAuthor",
     "createdAt": 2018-12-06T00:00:00.000Z,
-    "dataType": "SCM",
     "deletions": 6,
     "filename": "someFileName.txt",
     "id": "c8a773f98009d644df4b8a3784364a61eca72f6629b897f330b67a7c5d99ed93",

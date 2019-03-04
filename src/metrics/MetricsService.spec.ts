@@ -14,7 +14,6 @@ describe('MetricsService', () => {
       return [
         {
           id: 'someId',
-          dataType: 'someIdDatatype',
           createdAt: new Date('2019-02-20')
         }
       ];

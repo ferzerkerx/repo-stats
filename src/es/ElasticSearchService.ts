@@ -10,14 +10,12 @@ export class ElasticSearchServiceImpl implements ElasticSearchService {
   ) {}
 
   async push(metricItem: MetricItem): Promise<any> {
-    const type = metricItem.dataType;
-    const indexName = `${this.indexPrefix}-${type.toLowerCase()}`;
+    const indexName = `${this.indexPrefix}`;
     const id = metricItem.id;
 
     if (!this.shouldReplaceEntry) {
       const entryExists = await this.elasticSearchRepository.entryExists(
         indexName,
-        type,
         id
       );
 
@@ -29,7 +27,6 @@ export class ElasticSearchServiceImpl implements ElasticSearchService {
 
     return this.elasticSearchRepository.push({
       indexName,
-      type,
       id,
       payload: metricItem
     });

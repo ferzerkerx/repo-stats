@@ -38,7 +38,7 @@ export class Converters {
       filename: file.filename,
       additions: file.additions,
       deletions: file.deletions,
-      categories: [] //TODO
+      categories: file.filename.split('/')
     };
   }
 }

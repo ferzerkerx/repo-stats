@@ -12,10 +12,9 @@ export class ElasticSearchRepository {
     });
   }
 
-  async push({ indexName, type, id, payload }): Promise<any> {
+  async push({ indexName, id, payload }): Promise<any> {
     return this.client.index({
       index: indexName,
-      type,
       id,
       body: {
         ...payload
@@ -23,15 +22,10 @@ export class ElasticSearchRepository {
     });
   }
 
-  async entryExists(
-    indexName: string,
-    type: string,
-    id: string
-  ): Promise<boolean> {
+  async entryExists(indexName: string, id: string): Promise<boolean> {
     const response = await this.client
       .search({
         index: indexName,
-        type,
         body: {
           query: {
             match: {
