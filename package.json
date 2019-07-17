@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "@octokit/rest": "^16.13.2",
-    "bottleneck": "^2.19.2",
+    "bottleneck": "^2.19.4",
     "elasticsearch": "^15.2.0",
     "express": "^4.17.1",
     "node-env-file": "^0.1.8",

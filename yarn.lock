@@ -516,9 +516,9 @@ body-parser@1.19.0:
     raw-body "2.4.0"
     type-is "~1.6.17"
 
-bottleneck@^2.19.2:
-  version "2.19.2"
-  resolved "https://registry.yarnpkg.com/bottleneck/-/bottleneck-2.19.2.tgz#a84d2709288ef6527aee3d228067e180493b657a"
+bottleneck@^2.19.4:
+  version "2.19.4"
+  resolved "https://registry.yarnpkg.com/bottleneck/-/bottleneck-2.19.4.tgz#63c505687a0ddaf89a6f515225c75e05833bb079"
 
 brace-expansion@^1.1.7:
   version "1.1.11"
