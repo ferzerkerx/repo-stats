@@ -16,7 +16,7 @@
     "precommit": "lint-staged"
   },
   "dependencies": {
-    "@octokit/rest": "^16.13.2",
+    "@octokit/rest": "^16.28.5",
     "bottleneck": "^2.19.2",
     "elasticsearch": "^15.2.0",
     "express": "^4.17.1",
